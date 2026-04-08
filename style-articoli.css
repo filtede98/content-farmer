@@ -1,0 +1,394 @@
+/* ============================================
+   SCELTA CASA — Stile Articoli Affiliazione
+   Da inserire in WordPress → Aspetto → Personalizza → CSS Aggiuntivo
+   oppure tramite WPCode
+   ============================================ */
+
+/* === INDICE CONTENUTI (Table of Contents) === */
+.toc-box {
+  background: #f8f9fa;
+  border-left: 4px solid #2563eb;
+  border-radius: 8px;
+  padding: 24px 28px;
+  margin: 24px 0 32px 0;
+  font-size: 15px;
+}
+
+.toc-box p.toc-title {
+  font-weight: 700;
+  font-size: 17px;
+  margin: 0 0 12px 0;
+  color: #1a1a1a;
+}
+
+.toc-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.toc-box ul li {
+  padding: 4px 0;
+}
+
+.toc-box ul li a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.toc-box ul li a:hover {
+  text-decoration: underline;
+}
+
+/* === PRODUCT BOX — Box singolo prodotto === */
+.product-box {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 28px;
+  margin: 28px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  transition: box-shadow 0.2s ease;
+}
+
+.product-box:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+.product-box h3 {
+  font-size: 22px;
+  margin: 0 0 8px 0;
+  color: #1a1a1a;
+}
+
+.product-box .product-badge {
+  display: inline-block;
+  background: #2563eb;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 20px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.product-box .product-badge.best-value {
+  background: #16a34a;
+}
+
+.product-box .product-badge.budget-pick {
+  background: #f59e0b;
+  color: #1a1a1a;
+}
+
+.product-box .product-description {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #374151;
+  margin-bottom: 16px;
+}
+
+/* === PRO / CONTRO === */
+.product-pros-cons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 16px 0;
+}
+
+@media (max-width: 600px) {
+  .product-pros-cons {
+    grid-template-columns: 1fr;
+  }
+}
+
+.product-pros {
+  background: #f0fdf4;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.product-pros p.pros-title {
+  font-weight: 700;
+  color: #16a34a;
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.product-pros ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.product-pros ul li {
+  padding: 3px 0;
+  font-size: 15px;
+  color: #374151;
+}
+
+.product-pros ul li::before {
+  content: "✓ ";
+  color: #16a34a;
+  font-weight: 700;
+}
+
+.product-cons {
+  background: #fef2f2;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.product-cons p.cons-title {
+  font-weight: 700;
+  color: #dc2626;
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.product-cons ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.product-cons ul li {
+  padding: 3px 0;
+  font-size: 15px;
+  color: #374151;
+}
+
+.product-cons ul li::before {
+  content: "✗ ";
+  color: #dc2626;
+  font-weight: 700;
+}
+
+/* === BOTTONE CTA AMAZON === */
+.cta-button {
+  display: inline-block;
+  background: #ff9900;
+  color: #1a1a1a !important;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 14px 28px;
+  border-radius: 8px;
+  text-decoration: none !important;
+  text-align: center;
+  margin-top: 16px;
+  transition: background 0.2s ease, transform 0.1s ease;
+  box-shadow: 0 2px 4px rgba(255,153,0,0.3);
+}
+
+.cta-button:hover {
+  background: #e68a00;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(255,153,0,0.4);
+}
+
+/* === TABELLA COMPARATIVA === */
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 24px 0 32px 0;
+  font-size: 15px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.comparison-table thead tr {
+  background: #1e293b;
+  color: white;
+}
+
+.comparison-table th {
+  padding: 14px 16px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
+.comparison-table td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #e5e7eb;
+  color: #374151;
+}
+
+.comparison-table tbody tr:nth-child(even) {
+  background: #f8f9fa;
+}
+
+.comparison-table tbody tr:hover {
+  background: #eff6ff;
+}
+
+.comparison-table .winner-row {
+  background: #f0fdf4 !important;
+  font-weight: 600;
+}
+
+/* === INFO BOX — Suggerimento / Nota === */
+.info-box {
+  background: #eff6ff;
+  border-left: 4px solid #2563eb;
+  border-radius: 8px;
+  padding: 20px 24px;
+  margin: 24px 0;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #1e40af;
+}
+
+.info-box strong {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+/* === WARNING BOX — Errore da evitare === */
+.warning-box {
+  background: #fef3c7;
+  border-left: 4px solid #f59e0b;
+  border-radius: 8px;
+  padding: 20px 24px;
+  margin: 24px 0;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #92400e;
+}
+
+/* === VERDICT BOX — Verdetto finale === */
+.verdict-box {
+  background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+  border-radius: 12px;
+  padding: 32px;
+  margin: 32px 0;
+  color: white;
+}
+
+.verdict-box h2 {
+  color: #ffffff !important;
+  margin-top: 0;
+  font-size: 24px;
+  border-bottom: 2px solid rgba(255,255,255,0.2) !important;
+  padding-bottom: 12px;
+}
+
+.verdict-box p {
+  color: #ffffff !important;
+  font-size: 16px;
+  line-height: 1.7;
+  opacity: 0.95;
+}
+
+.verdict-box strong {
+  color: #ffffff !important;
+}
+
+.verdict-box .cta-button {
+  margin-top: 20px;
+}
+
+/* === RATING STARS === */
+.rating {
+  color: #f59e0b;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+
+/* === SEPARATOR === */
+.article-separator {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #d1d5db, transparent);
+  margin: 40px 0;
+}
+
+/* === MIGLIORAMENTI TIPOGRAFIA GENERALE === */
+.entry-content h2 {
+  font-size: 28px;
+  margin-top: 48px;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #e5e7eb;
+  color: #1a1a1a;
+}
+
+.entry-content h3 {
+  font-size: 22px;
+  margin-top: 32px;
+  margin-bottom: 12px;
+  color: #1e293b;
+}
+
+.entry-content p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #374151;
+  margin-bottom: 16px;
+}
+
+.entry-content ul li,
+.entry-content ol li {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 6px;
+}
+
+/* === FAQ SCHEMA STYLE === */
+.faq-section {
+  margin: 32px 0;
+}
+
+.faq-item {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+.faq-question {
+  background: #f8f9fa;
+  padding: 16px 20px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #1a1a1a;
+}
+
+.faq-answer {
+  padding: 16px 20px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #374151;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+  .product-box {
+    padding: 20px;
+  }
+
+  .verdict-box {
+    padding: 24px;
+  }
+
+  .entry-content h2 {
+    font-size: 24px;
+  }
+
+  .cta-button {
+    display: block;
+    text-align: center;
+  }
+}

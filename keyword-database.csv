@@ -1,0 +1,49 @@
+Keyword,Intento,Silo,Tipo Articolo,Volume,SD,CPC,Priorità,Stato,Data Pubblicazione,ID Categoria
+miglior friggitrice ad aria,transazionale,Cucina,pillar,18100,22,0.40,alta,da scrivere,,13
+miglior friggitrice ad aria qualità prezzo,commerciale,Cucina,pillar,880,22,0.38,alta,da scrivere,,13
+miglior friggitrice ad aria per 4 persone,transazionale,Cucina,pillar,260,22,0.30,alta,da scrivere,,13
+friggitrice ad aria con doppia resistenza sopra e sotto,transazionale,Cucina,pillar,720,20,0.23,alta,da scrivere,,13
+miglior robot da cucina,transazionale,Cucina,pillar,1300,23,0.42,alta,da scrivere,,14
+miglior robot da cucina tipo bimby,commerciale,Cucina,pillar,390,19,0.42,alta,da scrivere,,14
+miglior robot da cucina multifunzione,transazionale,Cucina,pillar,210,32,0.42,media,da scrivere,,14
+robot da cucina con frullatore,transazionale,Cucina,pillar,170,15,0.16,alta,da scrivere,,14
+robot da cucina con impastatrice,transazionale,Cucina,pillar,170,19,0.27,alta,da scrivere,,14
+robot da cucina con planetaria,transazionale,Cucina,pillar,90,19,0.24,media,da scrivere,,14
+miglior macchina caffè automatica,transazionale,Cucina,pillar,da validare,,,alta,da scrivere,,15
+miglior macchina caffè cialde,transazionale,Cucina,pillar,da validare,,,alta,da scrivere,,15
+miglior macchina caffè sotto 300 euro,transazionale,Cucina,pillar,da validare,,,alta,da scrivere,,15
+miglior bollitore elettrico,transazionale,Cucina,pillar,da validare,,,media,da scrivere,,16
+miglior tostapane,transazionale,Cucina,pillar,da validare,,,media,da scrivere,,16
+miglior macchina sottovuoto alimenti,transazionale,Cucina,pillar,da validare,,,media,da scrivere,,16
+miglior essiccatore alimentare,transazionale,Cucina,pillar,da validare,,,media,da scrivere,,16
+miglior estrattore di succo,transazionale,Cucina,pillar,da validare,,,media,da scrivere,,16
+miglior deumidificatore,transazionale,Climatizzazione,pillar,6600,21,0.60,alta,da scrivere,,17
+miglior deumidificatore casa,commerciale,Climatizzazione,pillar,90,21,0.90,alta,da scrivere,,17
+miglior deumidificatore per bagno piccolo,transazionale,Climatizzazione,pillar,da validare,,,alta,da scrivere,,17
+miglior deumidificatore per camera da letto,transazionale,Climatizzazione,pillar,da validare,,,alta,da scrivere,,17
+miglior deumidificatore professionale,transazionale,Climatizzazione,pillar,30,44,0.51,bassa,da scrivere,,17
+miglior deumidificatore e purificatore,transazionale,Climatizzazione,pillar,20,36,0.35,bassa,da scrivere,,17
+miglior purificatore aria,transazionale,Climatizzazione,pillar,da validare,,,alta,da scrivere,,18
+miglior purificatore aria per allergie,transazionale,Climatizzazione,pillar,da validare,,,alta,da scrivere,,18
+miglior ventilatore silenzioso,transazionale,Climatizzazione,pillar,da validare,,,alta,da scrivere,,19
+miglior ventilatore a torre,transazionale,Climatizzazione,pillar,da validare,,,alta,da scrivere,,19
+miglior condizionatore portatile,transazionale,Climatizzazione,pillar,da validare,,,alta,da scrivere,,20
+miglior condizionatore portatile senza tubo,transazionale,Climatizzazione,pillar,da validare,,,alta,da scrivere,,20
+miglior termoventilatore,transazionale,Climatizzazione,pillar,da validare,,,media,da scrivere,,21
+miglior stufa elettrica basso consumo,transazionale,Climatizzazione,pillar,da validare,,,alta,da scrivere,,21
+miglior termoconvettore elettrico,transazionale,Climatizzazione,pillar,da validare,,,media,da scrivere,,21
+miglior stufetta per bagno,transazionale,Climatizzazione,pillar,da validare,,,media,da scrivere,,21
+miglior umidificatore ambiente,transazionale,Climatizzazione,pillar,da validare,,,media,da scrivere,,16
+come scegliere friggitrice ad aria,informazionale,Cucina,guida,320,19,0.26,alta,in attesa,,13
+friggitrice ad aria come funziona,informazionale,Cucina,guida,3600,17,0.25,alta,in attesa,,13
+robot da cucina come il bimby,commerciale,Cucina,guida,70,36,0.18,bassa,in attesa,,14
+quale robot da cucina scegliere,informazionale,Cucina,guida,50,36,0.28,bassa,in attesa,,14
+macchina caffè automatica quale scegliere,informazionale,Cucina,guida,da validare,,,alta,in attesa,,15
+come scegliere deumidificatore,informazionale,Climatizzazione,guida,260,17,0.45,alta,in attesa,,17
+purificatore aria quale scegliere,informazionale,Climatizzazione,guida,da validare,,,alta,in attesa,,18
+condizionatore portatile quale scegliere,informazionale,Climatizzazione,guida,da validare,,,alta,in attesa,,20
+friggitrice ad aria o forno ventilato,comparativo,Cucina,vs,110,22,0.36,media,in attesa,,13
+friggitrice ad aria o microonde,comparativo,Cucina,vs,140,28,0.12,media,in attesa,,13
+De'Longhi Magnifica vs Philips Series 3200,comparativo,Cucina,vs,da validare,,,media,in attesa,,15
+Dyson Purifier vs Philips Series 2000,comparativo,Climatizzazione,vs,da validare,,,alta,in attesa,,18
+ventilatore a torre vs a piantana,comparativo,Climatizzazione,vs,da validare,,,media,in attesa,,19

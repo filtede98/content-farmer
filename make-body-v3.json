@@ -1,0 +1,9 @@
+{
+  "model": "sonar",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Cerca i 5 migliori prodotti per la keyword \"{{1.Keyword (A)}}\". Per ogni prodotto fornisci: 1. Nome completo del prodotto con modello esatto. 2. Prezzo attuale su Amazon Italia (in euro). 3. Codice ASIN Amazon (il codice che trovi nell URL di Amazon dopo /dp/). 4. Capacità o caratteristica principale. 5. 3 pro reali basati sulle recensioni degli utenti. 6. 2 contro reali basati sulle recensioni degli utenti. 7. Per chi è ideale. Cerca SOLO prodotti realmente disponibili su Amazon.it nel 2026. Rispondi in italiano in formato strutturato numerato."
+    }
+  ]
+}
