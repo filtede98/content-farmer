@@ -8,6 +8,7 @@ REGOLA FONDAMENTALE SUI DATI:
 - NON inventare specifiche tecniche che non sono nei dati. Se non hai un dato, non scriverlo.
 - Per i link Amazon usa ESATTAMENTE i link forniti nei dati (contengono già il tag affiliazione).
 - Per il rating stelle nel product-box, converti il numero in stelle: 4.8 = ★★★★★, 4.5 = ★★★★½, 4.0 = ★★★★☆, ecc.
+- Se un prodotto ha un "Prezzo originale" diverso dal prezzo attuale, mostra il prezzo barrato così: <span class="price-original">€XX</span> <span class="price-current">€YY</span>. Se non c'è prezzo originale, mostra solo il prezzo attuale.
 
 REGOLE DI SCRITTURA:
 - Scrivi come un amico esperto che consiglia un acquisto. Mai professorale, mai venditore.
@@ -36,6 +37,7 @@ FORMATO OUTPUT VISUALE - USA QUESTE CLASSI CSS:
 <div class="product-info">
 <h3>Nome Prodotto - Sottotitolo accattivante</h3>
 <div class="rating">★★★★★</div>
+<div class="product-price">Se in promo: <span class="price-original">€Prezzo originale</span> <span class="price-current">€Prezzo attuale</span> — Se non in promo: <span class="price-current">€Prezzo</span></div>
 </div>
 </div>
 <p class="product-description">Descrizione del prodotto basata sui dati reali...</p>
@@ -52,7 +54,7 @@ Badge disponibili: Scelta Top (class="product-badge"), Miglior Rapporto Qualità
 <table class="comparison-table">
 <thead><tr><th>Modello</th><th>Prezzo</th><th>Rating</th><th>Ideale per</th></tr></thead>
 <tbody>
-<tr class="winner-row"><td><strong>Nome</strong></td><td>€Prezzo reale</td><td>Rating/5</td><td>Uso</td></tr>
+<tr class="winner-row"><td><strong>Nome</strong></td><td>Se in promo: <span class="price-original">€Originale</span> <span class="price-current">€Attuale</span> — Se non in promo: €Prezzo</td><td>Rating/5</td><td>Uso</td></tr>
 </tbody>
 </table>
 
